@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fastlane/plugin/transifex_api/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fastlane-plugin-transifex_api'
+  spec.name          = 'fastlane-plugin-transifex'
   spec.version       = Fastlane::TransifexApi::VERSION
-  spec.author        = %q{alexander sun}
-  spec.email         = %q{luc.alexander.sun@icloud.com}
+  spec.author        = %q{junjie}
+  spec.email         = %q{junjie.qu@symbio.com}
 
   spec.summary       = %q{basic transifex api wrapper}
-  spec.homepage      = "https://github.com/xiangyu-sun/fastlane-plugin-transifex_api"
+  spec.homepage      = "https://github.com/JackyQu/fastlane-plugin-transifex"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)

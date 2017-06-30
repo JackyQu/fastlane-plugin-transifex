@@ -39,7 +39,7 @@ module Fastlane
       end
 
       def self.authors
-        ["alexander sun"]
+        ["junjie"]
       end
 
       def self.return_value
