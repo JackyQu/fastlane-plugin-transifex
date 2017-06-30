@@ -1,16 +1,16 @@
 # transifex_api plugin
 
-[![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-transifex_api)
+[![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-transifex)
 
 ## Getting Started
 
-This project is a [fastlane](https://github.com/fastlane/fastlane) plugin. To get started with `fastlane-plugin-transifex_api`, add it to your project by running:
+This project is a [fastlane](https://github.com/fastlane/fastlane) plugin. To get started with `fastlane-plugin-transifex`, add it to your project by running:
 
 ```bash
-fastlane add_plugin transifex_api
+fastlane add_plugin transifex
 ```
 
-## About transifex_api
+## About transifex
 
 basic transifex api wrapper
 

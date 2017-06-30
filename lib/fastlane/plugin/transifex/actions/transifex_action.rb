@@ -1,6 +1,6 @@
 module Fastlane
   module Actions
-    class TransifexApiAction < Action
+    class TransifexAction < Action
       def self.run(params)
         require 'json'
         require 'net/http'
@@ -35,7 +35,7 @@ module Fastlane
       end
 
       def self.description
-        "basic transifex api wrapper"
+        "basic transifex wrapper"
       end
 
       def self.authors
@@ -48,7 +48,7 @@ module Fastlane
 
       def self.details
         # Optional:
-        "basic transifex api wrapper "
+        "basic transifex wrapper "
       end
 
       def self.available_options

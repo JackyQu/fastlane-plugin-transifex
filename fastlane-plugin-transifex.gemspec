@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fastlane/plugin/transifex_api/version'
+require 'fastlane/plugin/transifex/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'fastlane-plugin-transifex'
-  spec.version       = Fastlane::TransifexApi::VERSION
+  spec.version       = Fastlane::Transifex::VERSION
   spec.author        = %q{junjie}
   spec.email         = %q{junjie.qu@symbio.com}
 
-  spec.summary       = %q{basic transifex api wrapper}
+  spec.summary       = %q{basic transifex wrapper}
   spec.homepage      = "https://github.com/JackyQu/fastlane-plugin-transifex"
   spec.license       = "MIT"
 
