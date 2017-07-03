@@ -10,11 +10,8 @@ module Fastlane
         project = params[:project].shellescape
         resource = params[:resource].shellescape
 
-    
-        url = "http://www.transifex.com/api/2/project/#{project}/resource/#{resource}/stats/"
-
+        url = "https://www.transifex.com/api/2/project/#{project}/resource/#{resource}/stats/"
         url = url +  params[:lang_code].shellescape if params[:lang_code]
-
 
         uri = URI.parse(url)
         request = Net::HTTP::Get.new(uri)
